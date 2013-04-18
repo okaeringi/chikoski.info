@@ -1,0 +1,40 @@
+body{
+    font-family: "HiraKakuPro-W3","ヒラギノ角ゴ Pro W3", "Meiryo", "メイリオ", sans-serif;
+    background-image: url(http://media.tumblr.com/tumblr_md1yr6la541qz77ou.png);
+  text-shadow: -1px 1px 0 rgba(255,255,255,  .4);
+}
+div, #posts{ 
+  background-color: transparent;
+  border-style: none;
+}
+
+
+h1, h2, h3, h4{
+ font-family: "HiraKakuPro-W6","ヒラギノ角ゴ Pro W6", "Meiryo", "メイリオ", sans-serif;
+}
+h4{
+  font-size: 18px;
+}
+div.text{
+  font-size: 18px;
+  line-height: 1.5;
+ }
+div.text p{
+  margin-bottom: 1.25em;
+}
+pre, code{
+  font-size: 16px;
+  line-height: 1.5;
+}
+div.gist{
+  margin-bottom: 2.5em;
+}
+
+#posts .content{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 0 white;
+    color: #202020;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding: 0 0 10px;
+}
