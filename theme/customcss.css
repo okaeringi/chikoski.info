@@ -1,33 +1,98 @@
 body{
     font-family: "HiraKakuPro-W3","ヒラギノ角ゴ Pro W3", "Meiryo", "メイリオ", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;    
+    color: #202020;
     background-image: url(http://media.tumblr.com/tumblr_md1yr6la541qz77ou.png);
-  text-shadow: -1px 1px 0 rgba(255,255,255,  .4);
+    text-shadow: -1px 1px 0 rgba(255,255,255,  .4);
 }
-div, #posts{ 
-  background-color: transparent;
-  border-style: none;
+h2, h3, h4{
+    font-family: "HiraKakuPro-W6","ヒラギノ角ゴ Pro W6", "Meiryo", "メイリオ", sans-serif;
+}
+h2{
+    color: #333;
+    font-size: 24px;
+}
+h3, h4{
+    font-size: 21px;
+    padding-bottom: 6px;
+    border-bottom: solid 1px #ccc;
+}
+a{
+    color: #0033cc;
 }
 
-
-h1, h2, h3, h4{
- font-family: "HiraKakuPro-W6","ヒラギノ角ゴ Pro W6", "Meiryo", "メイリオ", sans-serif;
-}
-h4{
-  font-size: 18px;
-}
-div.text{
-  font-size: 18px;
-  line-height: 1.5;
- }
-div.text p{
-  margin-bottom: 1.25em;
-}
 pre, code{
-  font-size: 16px;
-  line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.5;
 }
-div.gist{
+
+.post{
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.post h3{
+    margin-top: 60px;
+}
+
+.text p{
+    margin-bottom: 1.25em;
+}
+.gist{
   margin-bottom: 2.5em;
+}
+
+.post-footer{
+    background-color: #eee;
+    font-size: 16px;
+    text-align: right;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#global-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#global-header a{
+    color: #202020;
+    text-decoration: none;
+}
+#global-header h1{
+    color: #333;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 96px;
+    margin-bottom: 10px;
+}
+
+#global-header ul{
+    list-style: none;
+    padding: 0;
+}
+#global-header li{
+    display: inline-block;
+    border-right: solid 1px #ccc;
+    padding-right: 9px;
+    margin-right: 9px;
+}
+
+#global-header li:last-child{
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#description{
+    font-size: 16px;
+    display: none;
 }
 
 #posts .content{
